@@ -6,6 +6,6 @@ This repository contains resources for the Kaizen blockchain system, presented a
 
 - [Coq Bitcoin instantiation](https://github.com/palmskog/bitoychain)
 
-- Dafny refinements (to appear)
+- [Dafny refinements](Dafny)
 
-- C# refinements (to appear)
+- [C# code](networkLayer)

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package protobuf_unittest_import;
+
+option csharp_namespace = "Google.Protobuf.Messages";
+
+message Addr {
+ repeated int32 peers = 1;
+}

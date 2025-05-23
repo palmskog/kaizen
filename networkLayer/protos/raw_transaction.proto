@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package protobuf_unittest_import;
+
+option csharp_namespace = "Google.Protobuf.Messages";
+
+message RawTransaction {
+ string addr = 1;
+ string txid = 2;
+ uint32 amount = 3;
+ int vout = 4;
+ string script = 5;
+}

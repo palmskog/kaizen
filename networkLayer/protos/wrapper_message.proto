@@ -1,0 +1,20 @@
+syntax = "proto3";
+package protobuf_unittest_import;
+
+option csharp_namespace = "Google.Protobuf.Messages";
+
+message WrapperMessage {
+
+  enum MessageType {
+      TRANSACTION = 0;
+      ADDR = 1;
+      INV = 2;
+      BLOCK = 3;
+      GETDATA = 4;
+      UNKNOWN = 5;
+  }
+
+  MessageType type = 1;
+  bytes payload = 2;
+  int32 from = 3;
+}

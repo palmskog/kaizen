@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+   <GenerateProgramFile>false</GenerateProgramFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Protobuf" Version="3.5.1" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+<ItemGroup>
+    <Reference Include="BitcoinImpl">
+      <HintPath>Dll/BitcoinImpl.dll</HintPath>
+    </Reference>
+</ItemGroup>
+<ItemGroup>
+  <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.5.0" />
+  <PackageReference Include="NUnit" Version="3.9.0" />
+  <PackageReference Include="NUnit3TestAdapter" Version="3.9.0" />
+</ItemGroup>
+
+</Project>

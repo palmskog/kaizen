@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+package protobuf_unittest_import;
+
+option csharp_namespace = "Google.Protobuf.Messages";
+
+message Hash {
+    uint32 hash_digits = 1;
+}
+
+message Inv {
+    repeated Hash hashes = 1;
+}

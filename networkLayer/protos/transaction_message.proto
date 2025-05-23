@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package protobuf_unittest_import;
+
+option csharp_namespace = "Google.Protobuf.Messages";
+
+message TxIn {
+    uint32 n = 1;
+    string prevout_hash = 2; //Till the time this remains, no transaction can be created within the system 
+    uint32 prevout_n = 3;
+    uint32 sequence = 4;
+    string script = 5;
+}
+
+message TxOut {
+    uint32 n = 1;
+    uint64 value = 2;
+    string script_public_key = 5;
+}
+
+message Transaction {
+
+    uint32 time = 1;
+    uint32 version = 2;
+    repeated TxIn tx_ins = 3;
+    repeated TxOut tx_outs = 4;
+}
+
+message BitcoinProofMessage {
+    uint32 version = 1;
+    uint32 time = 2;
+    uint32 nonce = 3;
+    string bits = 4;
+}
+
+message BlockMessage {
+    bytes hash = 1;
+    repeated Transaction transactions = 2;
+    BitcoinProofMessage proof = 3;
+}

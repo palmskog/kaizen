@@ -1,0 +1,45 @@
+﻿{
+  "nodes": [
+    {
+      "id" :  1,
+      "ip_address" :  "10.1.1.2",
+      "port" : 9050,
+      "address": "2MuYvxnCgBmrPHaBcaYQrtGZ4MpzMEakAzS",
+      "key": "cNCC6KBjMN35wABHknBgEcQHfq7AVF8fmN8Vy3J224JNz4CVsU8F",
+      "unspent_transactions": "data/transactions/unspent_transactions1.json"
+    },
+    {
+      "id": 2,
+      "ip_address": "10.1.1.3",
+      "port": 9050,
+      "address": "2N2WGWa1979grnVkRksQnkdswFxm1P9je22",
+      "key": "cNDiQKChEX2pguYtT6HTkB7aHyJQFxoaNM5mHgakiqkyX7QuqHLi",
+      "unspent_transactions": "data/transactions/unspent_transactions2.json"
+    },
+    {
+      "id": 3,
+      "ip_address": "10.1.1.4",
+      "port": 9050,
+      "address": "2N8zwG7ofZ3tyU9uZMjsQzegzBgGKV6D3hC",
+      "key": "cUYQf7oaVedCY3zpqfnDC7B7y942g32NNynUWviSATBeQ54VgRGF",
+      "unspent_transactions": "data/transactions/unspent_transactions3.json"
+    },
+    {
+      "id": 4,
+      "ip_address": "10.1.1.5",
+      "port": 9050,
+      "address": "2MsMNcxHieXXeCYJpP8xxhpHLiNZHbDfMtR",
+      "key": "cRRHPVUztuorksPZLQNpgRMAiuuKPYR2KQUNSDyGojeswNAabaNQ",
+      "unspent_transactions": "data/transactions/unspent_transactions4.json"
+    },
+    {
+      "id": 5,
+      "ip_address": "10.1.1.6",
+      "port": 9050,
+      "address": "2N2meAzsaw7nS7LU21LKakGh4a8WgdRZtJP",
+      "key": "cSNgvMiXndXYyg4is8WzUwhizR8Fwb9Uc67eecuJxvs4SKcy9tLo",
+      "unspent_transactions": "data/transactions/unspent_transactions5.json"
+    },
+
+  ]
+}

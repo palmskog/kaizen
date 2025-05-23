@@ -1,0 +1,10 @@
+/Users/jayasi/illinois/bitcoin-formalization/networkLayer/bin/Debug/netcoreapp2.0/networkLayer.deps.json
+/Users/jayasi/illinois/bitcoin-formalization/networkLayer/bin/Debug/netcoreapp2.0/networkLayer.runtimeconfig.json
+/Users/jayasi/illinois/bitcoin-formalization/networkLayer/bin/Debug/netcoreapp2.0/networkLayer.runtimeconfig.dev.json
+/Users/jayasi/illinois/bitcoin-formalization/networkLayer/bin/Debug/netcoreapp2.0/networkLayer.dll
+/Users/jayasi/illinois/bitcoin-formalization/networkLayer/bin/Debug/netcoreapp2.0/networkLayer.pdb
+/Users/jayasi/illinois/bitcoin-formalization/networkLayer/obj/Debug/netcoreapp2.0/networkLayer.csproj.CoreCompileInputs.cache
+/Users/jayasi/illinois/bitcoin-formalization/networkLayer/obj/Debug/netcoreapp2.0/networkLayer.AssemblyInfoInputs.cache
+/Users/jayasi/illinois/bitcoin-formalization/networkLayer/obj/Debug/netcoreapp2.0/networkLayer.AssemblyInfo.cs
+/Users/jayasi/illinois/bitcoin-formalization/networkLayer/obj/Debug/netcoreapp2.0/networkLayer.dll
+/Users/jayasi/illinois/bitcoin-formalization/networkLayer/obj/Debug/netcoreapp2.0/networkLayer.pdb
